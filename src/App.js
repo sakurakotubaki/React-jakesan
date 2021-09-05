@@ -11,7 +11,6 @@ export default function App() {
   const onChangeText = (e) => setText(e.target.value);
 
   const onClickOpen = () => setOpen(!open);
-  // コメント
   const onClickCountUp = () => {
     setCount(count + 1);
   };
